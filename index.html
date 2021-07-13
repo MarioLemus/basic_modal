@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conceptos js</title>
+</head>
+
+<body
+    style="background-color: rgb(26, 25, 25); font-size: 22px; color: #fff; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+
+
+    <style>
+        .modal_holder {
+            /*background-color: blueviolet;*/
+            position: absolute;
+            width: 100%;
+        }
+
+        .modal {
+            background-color: violet;
+            height: 300px;
+            width: 400px;
+            margin: 0 auto;
+        }
+
+        .modal_close_button_holder {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 1rem;
+            margin-right: 1rem;
+
+        }
+    </style>
+
+    <div class="modal_holder">
+        <div class="modal" id="modal">
+
+            <button id="modal_close">close</button>
+
+            <div id="modal_content">
+                <p>contenido del modal</p>
+            </div>
+        </div>
+    </div>
+
+    <button id="modal_open">open</button>
+    <p>texto fuera del modal</p>
+
+
+
+    <script src="./practicaPrincipios.js"></script>
+</body>
+
+</html>
